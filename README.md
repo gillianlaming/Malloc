@@ -1,7 +1,8 @@
-#############################
-# CS:APP Malloc Lab
-# Handout files for students
-#############################
+# Memory Allocator
+
+Built using segregated lists. 
+
+Uses the best-fit policy, and a first-in, last-out policy.
 
 ***********
 Main Files:
@@ -15,8 +16,8 @@ Makefile
         Builds the driver 
 
 mdriver.c
-        The malloc driver that tests your mm.c file
-        Once you've run make, run ./mdriver to test
+        The malloc driver that tests the mm.c file
+        After running make, run ./mdriver to test
         your solution. 
 
 traces/
